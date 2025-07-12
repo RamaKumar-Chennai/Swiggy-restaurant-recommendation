@@ -1,4 +1,4 @@
-# Swiggy-restaurant-recommendationProblem Statement:
+# Swiggy-restaurant-recommendation
 The objective is to build a recommendation system based on restaurant data provided in a CSV file. The system should recommend restaurants to users based on input features such as city, rating, cost, and cuisine preferences. The application will utilize clustering or similarity measures to generate recommendations and display results in an easy-to-use Streamlit interface.
 
 
@@ -20,6 +20,7 @@ Numerical: rating, rating_count, cost
 Data Understanding and Cleaning
 Duplicate Removal:  The duplicate rows are identified and dropped.
 Handling Missing Values: Rows with missing values are dropped.
+Few 
 The cleaned data is saved to a new CSV file (cleaned_data.csv).
 
 
